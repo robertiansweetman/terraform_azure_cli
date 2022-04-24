@@ -6,8 +6,8 @@ Container for using Terraform and the Azure Cli. Primarily as a possible 'Bitbuc
 
 1. This image had not yet been uploaded to Docker hub
 1. There are no Terraform or Az-Cli packages for anything for Ubuntu 22.04 yet
-2. Both 'docker build' and 'docker run' require the `--platform linux/x86_64` flag to be added when running these commands if this being used on an M1 Mac
-3. Other ENV variables like az login related specifics aren't yet added
+2. If run on an M1 mac both 'docker build' and 'docker run' require the `--platform linux/x86_64` flag to be used
+3. Other ENV variables which could be used with `az login` have not been included yet
 
 ## ToDo
 
