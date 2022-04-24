@@ -15,6 +15,6 @@ Container for using Terraform and the Azure Cli. Primarily as a possible 'Bitbuc
     - https://docs.github.com/en/actions/publishing-packages/publishing-docker-images
 2. Pull in specific az environment variables
 3. Include a bitbucket-pipelines file to build this as well
-    - This may also include the 'push' steps
+    - This may also include the 'push' to docker hub steps
 4. Install `jq` as well
 5. Pull secret keys for az login from Azure Secrets as part of the build process? Something to 'bake in' access to Azure & run everything? (just an idea...)
